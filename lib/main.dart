@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       initialBinding: BindingsBuilder(() {
         Get.put(DataController());
       }),
-      home: Todo(),
+      home: TodoPage(),
     );
   }
 }
